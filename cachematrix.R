@@ -30,7 +30,7 @@ cacheSolve <- function(x, ...) {
   
   m <- mlist$getresult()
   if(!is.null(m)){
-    print("using cached data")
+    message("Using cached data")
     return(m)
   }
   data <- mlist$get()
