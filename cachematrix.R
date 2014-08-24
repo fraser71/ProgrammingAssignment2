@@ -43,3 +43,5 @@ cacheSolve <- function(x, ...) {
   x$setresult(result) #Cache it
   result #Return it
 }
+
+#done
